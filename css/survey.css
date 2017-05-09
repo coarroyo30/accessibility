@@ -1,0 +1,99 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+legend {
+	margin-top: 16px;
+}
+
+.albums label {
+	margin: 10px 0 16px 0;
+}
+
+.albums {
+	display: flex;
+}
+
+.song textarea {
+	margin: 16px 0 0 0;
+}
+
+.song legend {
+	margin-bottom: 8px;
+}
+
+.band {
+	padding-bottom: 5px;
+}
+
+.band legend {
+	margin-bottom: 10px;
+}
+
+.container{
+  text-align: center;
+}
+
+.newsletter {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.newsletter .name {
+	margin-left: 54px;
+}
+
+.newsletter .email {
+	margin-left: 56px;
+}
+
+input {
+	margin-bottom: 15px;
+}
+
+button {
+	margin-left: 180px;
+}
+ 
+
+
+textarea:focus,
+input:focus {
+	background-color: orange;
+	color: black;
+}
+
+#albums:focus {
+	background-color: orange;
+}
+
+
+fieldset {
+	border: none;
+}
+
+.personalInfo {
+	display: none;
+}
+
+input:checked + label {
+	border: 1px solid lightgray;
+	color: white;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
